@@ -1,0 +1,79 @@
+/* Container for the form */
+.form {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center the items */
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading style */
+h2 {
+  color: #302b63;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Input and select field styles */
+input[type="email"],
+select {
+  width: 50%; /* Set width to 50% for input and select */
+  padding: 12px;
+  margin-bottom: 20px; /* Space between fields */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Focus styles for input and select */
+input[type="email"]:focus,
+select:focus {
+  border-color: #302b63;
+  box-shadow: 0 0 8px rgba(48, 43, 99, 0.2);
+  outline: none;
+}
+
+/* Button styles */
+.gen {
+  width: 55%; /* Set width to 50% for button */
+  padding: 14px;
+  background-color: #302b63;
+  color: white;
+  border: none;
+  border-radius:8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-top: 20px; /* Optional: add space between select and button */
+}
+
+/* Button hover effect */
+.gen:hover {
+  background-color: #524a89;
+  transform: translateY(-2px);
+}
+
+/* Button focus effect */
+.gen:focus {
+  box-shadow: 0 0 8px rgba(48, 43, 99, 0.2);
+}
+
+/* Message feedback */
+p {
+  margin-top: 1.5rem;
+  color: #e63946;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+
